@@ -203,3 +203,34 @@ button {
 .classe .gauche4 p {
     font-size: 16px;
 }
+
+
+/* Travail */
+
+.img5 img {
+    width: 150%;
+    height: 100%;
+}
+
+
+
+.travail {
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.travail .droite5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+}
+
+.travail .equipe {
+    max-width: 50%;
+}
