@@ -108,3 +108,32 @@ button {
     position: absolute;
     z-index: 1;
 }
+
+/* Méthodo */
+
+
+.img2 img {
+    width: 100%;
+    height: 100%;
+}
+
+.img2 {
+    width: 700px;
+}
+
+.methodotravail {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.methodotravail .droite2 {
+    position: relative;
+    left: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    text-align: right;
+    width: 500px;
+}
