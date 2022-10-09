@@ -3,3 +3,108 @@
     padding: 0;
     font-family: arial;
 }
+
+#sticky-logos {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 40%;
+    left: 2%;
+    gap: 10px;
+}
+
+#sticky-logos img {
+    width: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+header a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 30px;
+}
+
+header img {
+    width: 10%;
+}
+
+
+
+/* MDS */
+
+.img1 img {
+    width: 100%;
+    margin-top: 50px;
+}
+
+
+.gauche1 {
+    margin-left: 150px;
+    margin-top: 50px;
+
+}
+
+
+.gauche1 h1 {
+    font-size: 30px;
+}
+
+.gauche1 p {
+    font-size: 16px;
+}
+
+button {
+    border-color: #28b7C5;
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    padding: 20px 40px 20px 40px;
+}
+
+
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background: #28B7C5;
+    margin: 15px 0;
+}
+
+
+.line-1 {
+    width: 15px;
+    height: 15px;
+    background: #28B7C5;
+    display: inline-block;
+}
+
+.line-2 {
+    width: 80px;
+    height: 1px;
+    background: #28B7C5;
+    display: inline-block;
+}
+
+.line-3 {
+    width: 60px;
+    height: 1px;
+    background: #28B7C5;
+    display: inline-block;
+}
+
+.line {
+    line-height: 8px;
+}
+
+.gauche1 {
+    position: absolute;
+    z-index: 1;
+}
