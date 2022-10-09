@@ -137,3 +137,44 @@ button {
     text-align: right;
     width: 500px;
 }
+
+/* Compétences */
+
+
+.competences {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.competences .haut3 {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+}
+
+.competences .haut3 .idee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.competences .haut3 .reflexion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.competences .haut3 .deploiement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.competences h4 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
